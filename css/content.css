@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+}
+col{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  width: 1065px;
+}
+#first{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.col div{
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+.BozheMoy{
+  position: relative;
+  height: 213px;
+  width: 1065px;
+}
+.Sun{
+  position: relative;
+  height:853px;
+  width:1065px;
+}
+.Doska{
+  width:856px;
+  height: 1070px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+
+}
+#second{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+#crosses{
+  width: 853px;
+  height: 427px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+#date{
+  width: 1068px;
+  height: 427px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+#emojis{
+  width: 100%;
+  height: 215px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+
+}
