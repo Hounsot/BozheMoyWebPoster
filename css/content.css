@@ -1,110 +1,141 @@
-*{
+@font-face {
+  font-family: "NWTBodoni";
+  src: url(../fonts/NWTBodoni-Regular.ttf);
+}
+* {
   box-sizing: border-box;
 }
-body{
+
+body {
   background-color: black;
   width: 100%;
   display: block;
 }
 
-col{
+p {
+  color: white;
+  width: 785px;
+  height: 917.9px;
+  font-size: 146px;
+  line-height: 156px;
+  letter-spacing: 0.04em;
+  font-family: "NWTBodoni"
+}
+
+col {
   display: flex;
   flex-direction: column;
   margin-left: 0;
   width: 1065px;
 }
-#first{
+
+#first {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
-.col div{
+
+.col div {
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
-.BozheMoy{
+
+.BozheMoy {
   position: relative;
   height: 213px;
   width: 1065px;
 }
-.Sun{
+
+.Sun {
   position: relative;
-  height:853px;
-  width:1065px;
+  height: 853px;
+  width: 1065px;
 }
-.Doska{
-  width:855px;
+
+.Doska {
+  width: 855px;
   height: 1070px;
   border: 1px solid #ffffff;
   border-radius: 20px;
-
 }
-#second{
+
+#second {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
-#crosses{
+
+#crosses {
   width: 853px;
   height: 427px;
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
-#date{
+
+#date {
   width: 1068px;
   height: 427px;
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
-.row{
+
+.row {
   width: 100%;
   height: 215px;
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
-.triplerow{
+
+.triplerow {
   width: 100%;
   height: 640px;
   border: 1px solid #fff;
   border-radius: 20px;
 }
-.doublerow{
+
+.doublerow {
   width: 100%;
   height: 427px;
   border: 1px solid #fff;
   border-radius: 20px;
 }
-#third{
+
+#third {
   display: flex;
   flex-direction: row;
 }
-#festival{
+
+#festival {
   border: 1px solid #ffffff;
   border-radius: 20px;
   width: 1066px;
   height: 640px;
 }
-#code{
+
+#code {
   border: 1px solid #ffffff;
   border-radius: 20px;
-width: 855px;
-height: 640px;
+  width: 855px;
+  height: 640px;
 }
-#fourth{
+
+#fourth {
   width: 100%;
   height: 1279px;
   display: flex;
   flex-direction: row;
 }
-#hand{
+
+#hand {
   height: 1279px;
   width: 100%;
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
-#ghosts{
-  height:1279px;
-  width:1067px;
+
+#ghosts {
+  height: 1279px;
+  width: 1067px;
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
