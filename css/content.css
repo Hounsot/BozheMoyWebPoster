@@ -2,6 +2,7 @@ body{
   background-color: black;
   width: 1920px;
 }
+
 col{
   display: flex;
   flex-direction: column;
@@ -93,7 +94,7 @@ height: 640px;
 }
 #hand{
   height: 1279px;
-  width: 1920px;
+  width: 100%;
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
