@@ -1,6 +1,7 @@
 body{
   background-color: black;
   width: 1920px;
+  display: block;
 }
 
 col{
