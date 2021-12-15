@@ -146,6 +146,9 @@ col {
 #angelsndevils:hover{
   animation-play-state: paused;
 }
+#angelsndevils2:hover{
+  animation-play-state: paused;
+}
 
 @keyframes devilan {
   from {
