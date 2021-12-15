@@ -107,6 +107,8 @@ col {
   animation-duration: 5s;
   animation-name: devilan;
   overflow: hidden;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
   margin: 5px;
 }
 
