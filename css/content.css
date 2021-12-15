@@ -94,29 +94,35 @@ col {
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
+#crossesin{
+  margin: auto 0;
+}
 #firstlineofcrosses {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: auto 0;
 }
 #secondlineofcrosses{
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: auto 0;
 }
 .cross{
   height: 165px;
   width: 145px;
-
 }
+
 .hor{
   position: relative;
   background: #FFFFFF;
   height: 133px;
   width: 30px;
   transform: rotate(90deg);
-  margin-top: 20px;
-  margin: auto 0;
+  margin-left: 30px;
 }
 .ver{
   margin-top: -125px;
@@ -124,8 +130,7 @@ col {
   background: #FFFFFF;
   height: 165px;
   width: 29px;
-  margin: auto 0;
-
+  margin-left: 30px;
 }
 #date {
   width: 1068px;
