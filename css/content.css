@@ -15,7 +15,10 @@ body {
   width: 1920px;
   display: block;
 }
-
+#bozhe p{
+  margin: auto 0;
+  text-align: center;
+}
 p {
   color: white;
   font-size: 146px;
@@ -25,6 +28,9 @@ p {
 }
 .Suisse{
   font-family: "Suisse";
+  font-size: 146px;
+  line-height: 169px;
+  letter-spacing: 0.02em;
 }
 .NWTBodoni{
   font-family: "NWTBodoni";
@@ -59,7 +65,14 @@ col {
   height: 853px;
   width: 1065px;
 }
-
+#circle {
+    margin: auto;
+    margin-top: 50px;
+    background: #fff;
+    width: 725px;
+    height: 725px;
+    border-radius: 50%;
+}
 .Doska {
   width: 855px;
   height: 1070px;
