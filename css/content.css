@@ -87,12 +87,21 @@ col {
 }
 
 #crosses {
+  display: flex;
+  flex-direction: column;
   width: 853px;
   height: 427px;
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
-
+#firstlineofcrosses {
+  display: flex;
+  flex-direction: row;
+}
+#secondlineofcrosses{
+  display: flex;
+  flex-direction: row;
+}
 #date {
   width: 1068px;
   height: 427px;
