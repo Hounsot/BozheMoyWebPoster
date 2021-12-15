@@ -102,6 +102,7 @@ col {
 #secondlineofcrosses{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .cross{
   height: 165px;
@@ -115,6 +116,7 @@ col {
   width: 30px;
   transform: rotate(90deg);
   margin-top: 20px;
+  margin: auto 0;
 }
 .ver{
   margin-top: -125px;
@@ -122,6 +124,8 @@ col {
   background: #FFFFFF;
   height: 165px;
   width: 29px;
+  margin: auto 0;
+
 }
 #date {
   width: 1068px;
