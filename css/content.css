@@ -96,14 +96,15 @@ col {
   color: #000;
   overflow: hidden;
 }
-
+#adress{
+  text-align: center;
+  margin: auto 0px;
+}
 #angelsndevils {
+  height: 100%;
   display: flex;
   flex-direction: row;
   margin: auto;
-}
-
-.devil {
   animation-duration: 5s;
   animation-name: devilan;
   overflow: hidden;
@@ -111,14 +112,57 @@ col {
   animation-timing-function: linear;
   margin: 5px;
 }
+#angelsndevils2 {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  animation-duration: 5s;
+  animation-name: devilan2;
+  overflow: hidden;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin: 5px;
+}
+
+.angel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#oreol{
+  margin: auto 0;
+  margin-top: 0;
+  margin-bottom: -105px;
+}
+/* .angelsndevils {
+  animation-duration: 5s;
+  animation-name: devilan;
+  overflow: hidden;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin: 5px;
+} */
+#angelsndevils:hover{
+  animation-play-state: paused;
+}
 
 @keyframes devilan {
   from {
-    margin-left: 0%;
+    margin-left: -0%;
   }
 
   to {
     margin-left: 100%;
+  }
+}
+@keyframes devilan2 {
+  from {
+    margin-left: -100%;
+  }
+
+  to {
+    margin-left: 0%;
   }
 }
 
