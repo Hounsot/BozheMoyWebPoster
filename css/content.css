@@ -97,28 +97,31 @@ col {
 #firstlineofcrosses {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 #secondlineofcrosses{
   display: flex;
   flex-direction: row;
 }
 .cross{
+  height: 165px;
+  width: 145px;
 
 }
 .hor{
+  position: relative;
   background: #FFFFFF;
-  height: 578px;
-  width: 130px;
-  left: 607px;
-  top: 163px;
-  border-radius: 0px;
-
-
+  height: 133px;
+  width: 30px;
+  transform: rotate(90deg);
+  margin-top: 20px;
 }
 .ver{
+  margin-top: -130px;
+  position: relative;
   background: #FFFFFF;
-  height: 710px;
-  width: 130px;
+  height: 165px;
+  width: 29px;
 }
 #date {
   width: 1068px;
