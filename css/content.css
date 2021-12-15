@@ -233,6 +233,8 @@ col {
   height: 200px;
   border: 1px solid #ffffff;
   border-radius: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .triplerow {
