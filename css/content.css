@@ -2,10 +2,12 @@
   font-family: "NWTBodoni";
   src: url(../fonts/NWTBodoni-Regular.ttf);
 }
+
 @font-face {
   font-family: "Suisse";
   src: url(../fonts/SuisseIntl-SemiBold.otf);
 }
+
 * {
   box-sizing: border-box;
 }
@@ -15,10 +17,12 @@ body {
   width: 100%;
   display: block;
 }
-#bozhe p{
+
+#bozhe p {
   margin: auto 0;
   text-align: center;
 }
+
 p {
   color: white;
   font-size: 146px;
@@ -26,13 +30,15 @@ p {
   letter-spacing: 0.04em;
   font-family: "NWTBodoni"
 }
-.Suisse{
+
+.Suisse {
   font-family: "Suisse";
   font-size: 146px;
   line-height: 169px;
   letter-spacing: 0.02em;
 }
-.NWTBodoni{
+
+.NWTBodoni {
   font-family: "NWTBodoni";
 }
 
@@ -65,14 +71,16 @@ col {
   height: 853px;
   width: 1065px;
 }
+
 #circle {
-    margin: auto;
-    margin-top: 50px;
-    background: #fff;
-    width: 725px;
-    height: 725px;
-    border-radius: 50%;
+  margin: auto;
+  margin-top: 50px;
+  background: #fff;
+  width: 725px;
+  height: 725px;
+  border-radius: 50%;
 }
+
 .Doska {
   width: 855px;
   height: 1070px;
@@ -84,6 +92,32 @@ col {
   display: flex;
   flex-direction: row;
   width: 100%;
+  background-color: #000;
+  color: #000;
+  overflow: hidden;
+}
+
+#angelsndevils {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.devil {
+  animation-duration: 5s;
+  animation-name: devilan;
+  overflow: hidden;
+  margin: 5px;
+}
+
+@keyframes devilan {
+  from {
+    margin-left: 0%;
+  }
+
+  to {
+    margin-left: 100%;
+  }
 }
 
 #crosses {
@@ -94,9 +128,11 @@ col {
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
-#crossesin{
+
+#crossesin {
   margin: auto 0;
 }
+
 #firstlineofcrosses {
   margin-top: 20px;
   display: flex;
@@ -104,34 +140,38 @@ col {
   justify-content: center;
   margin: auto 0;
 }
-#secondlineofcrosses{
+
+#secondlineofcrosses {
   margin-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: auto 0;
 }
-.cross{
+
+.cross {
   height: 165px;
   width: 145px;
 }
 
-.hor{
+.hor {
   position: relative;
   background: #FFFFFF;
   height: 133px;
   width: 30px;
   transform: rotate(90deg);
-  margin-left: 30px;
+  margin: auto 0;
 }
-.ver{
-  margin-top: -125px;
+
+.ver {
   position: relative;
   background: #FFFFFF;
+  margin-top: -125px;
   height: 165px;
   width: 29px;
-  margin-left: 30px;
+  margin: auto -125px;
 }
+
 #date {
   width: 1068px;
   height: 427px;
@@ -141,7 +181,7 @@ col {
 
 .row {
   width: 100%;
-  height: 215px;
+  height: 200px;
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
