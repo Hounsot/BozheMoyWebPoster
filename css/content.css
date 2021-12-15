@@ -102,6 +102,24 @@ col {
   display: flex;
   flex-direction: row;
 }
+.cross{
+
+}
+.hor{
+  background: #FFFFFF;
+  height: 578px;
+  width: 130px;
+  left: 607px;
+  top: 163px;
+  border-radius: 0px;
+
+
+}
+.ver{
+  background: #FFFFFF;
+  height: 710px;
+  width: 130px;
+}
 #date {
   width: 1068px;
   height: 427px;
