@@ -2,6 +2,10 @@
   font-family: "NWTBodoni";
   src: url(../fonts/NWTBodoni-Regular.ttf);
 }
+@font-face {
+  font-family: "Suisse";
+  src: url(../fonts/SuisseIntl-SemiBold.otf);
+}
 * {
   box-sizing: border-box;
 }
@@ -20,6 +24,12 @@ p {
   line-height: 156px;
   letter-spacing: 0.04em;
   font-family: "NWTBodoni"
+}
+.Suisse{
+  font-family: "Suisse";
+}
+.NWTBodoni{
+  font-family: "NWTBodoni";
 }
 
 col {
