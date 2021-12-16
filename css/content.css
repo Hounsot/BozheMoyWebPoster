@@ -96,53 +96,10 @@ col {
   color: #000;
   overflow: hidden;
 }
-#adress{
+
+#adress {
   text-align: center;
   margin: auto 0px;
-}
-#angelsndevils {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  animation-duration: 5s;
-  animation-name: devilan;
-  overflow: hidden;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  margin: 5px;
-}
-
-.angel{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-#oreol{
-  margin: auto 0;
-  margin-top: 0;
-  margin-bottom: -105px;
-}
-/* .angelsndevils {
-  animation-duration: 5s;
-  animation-name: devilan;
-  overflow: hidden;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  margin: 5px;
-} */
-#angelsndevils:hover{
-  animation-play-state: paused;
-}
-
-@keyframes devilan {
-  from {
-    margin-left: 0%;
-  }
-
-  to {
-    margin-left: 100%;
-  }
 }
 
 #crosses {
@@ -211,6 +168,41 @@ col {
   border-radius: 20px;
   display: flex;
   flex-direction: row;
+}
+
+.runningimages {
+  overflow: hidden;
+  width: 100%;
+}
+
+.runningimages div {
+  display: flex;
+  width: 200%;
+  animation: fuck 5s linear infinite;
+}
+
+.runningimages span {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.runningimages img {
+  width: 6%;
+}
+
+.runningimages:hover div {
+  animation-play-state: paused;
+}
+
+@keyframes fuck {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .triplerow {
