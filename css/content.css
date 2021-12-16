@@ -18,12 +18,9 @@ body {
   display: block;
 }
 
-#bozhe p {
-  margin: auto 0;
-  text-align: center;
-}
-
 p {
+  margin-top: 39px;
+  margin-left: 47px;
   color: white;
   font-size: 146px;
   line-height: 156px;
@@ -31,11 +28,17 @@ p {
   font-family: "NWTBodoni"
 }
 
+#bozhe p {
+  margin: auto 0;
+  text-align: center;
+}
+
 .Suisse {
   font-family: "Suisse";
   font-size: 146px;
-  line-height: 169px;
+  line-height: 136px;
   letter-spacing: 0.02em;
+
 }
 
 .NWTBodoni {
@@ -95,11 +98,6 @@ col {
   background-color: #000;
   color: #000;
   overflow: hidden;
-}
-
-#adress {
-  text-align: center;
-  margin: auto 0px;
 }
 
 #crosses {
@@ -178,7 +176,7 @@ col {
 .runningimages div {
   display: flex;
   width: 200%;
-  animation: fuck 5s linear infinite;
+  animation: faces 5s linear infinite;
 }
 
 .runningimages span {
@@ -190,12 +188,15 @@ col {
 .runningimages img {
   width: 6%;
 }
+.devilface{
+  width: 4.3% !important;
+}
 
 .runningimages:hover div {
   animation-play-state: paused;
 }
 
-@keyframes fuck {
+@keyframes faces {
   0% {
     transform: translateX(0%);
   }
@@ -203,6 +204,10 @@ col {
   100% {
     transform: translateX(-50%);
   }
+}
+#adress {
+  text-align: center;
+  margin: auto;
 }
 
 .triplerow {
@@ -246,14 +251,14 @@ col {
 }
 
 #hand {
-  height: 1279px;
-  width: 100%;
+  height: 900px;
+  width: 853px;
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
 
 #ghosts {
-  height: 1279px;
+  height: 900px;
   width: 1067px;
   border: 1px solid #ffffff;
   border-radius: 20px;
