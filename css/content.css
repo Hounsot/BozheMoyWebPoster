@@ -259,7 +259,7 @@ col {
 }
 #handframe{
   transform-origin: bottom;
-  animation: waving 8s linear infinite;
+  animation: waving 8s ease infinite;
 }
 @keyframes waving {
   0%{
@@ -272,16 +272,16 @@ col {
     transform: translateY(0px);
   }
   30%{
-    transform: rotate(20deg);
+    transform: rotate(15deg);
   }
   40%{
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
   }
   50%{
-    transform: rotate(20deg);
+    transform: rotate(15deg);
   }
   60%{
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
   }
   70%{
     transform: translateY(0);
