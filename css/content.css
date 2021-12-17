@@ -27,7 +27,9 @@ p {
   letter-spacing: 0.04em;
   font-family: "NWTBodoni"
 }
-
+#bozhe{
+  height: 200px;
+}
 #bozhe p {
   margin: auto 0;
   text-align: center;
