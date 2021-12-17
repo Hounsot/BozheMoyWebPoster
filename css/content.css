@@ -230,7 +230,7 @@ col {
   display: flex;
   width: 200%;
   animation: graves 12s linear infinite;
-  margin-top: -110px;
+  margin-top: -63px;
 }
 
 .runninggraves span {
@@ -241,7 +241,7 @@ col {
 
 .runninggraves img {
   width: 400%;
-  height: 17%;
+  height: 16%;
 }
 
 .runninggraves:hover div {
