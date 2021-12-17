@@ -228,7 +228,7 @@ col {
   display: flex;
   width: 200%;
   animation: graves 12s linear infinite;
-  margin-top: -70px;
+  margin-top: -110px;
 }
 
 .runninggraves span {
@@ -239,7 +239,7 @@ col {
 
 .runninggraves img {
   width: 400%;
-  height: 130%;
+  height: 17%;
 }
 
 .runninggraves:hover div {
@@ -248,11 +248,11 @@ col {
 
 @keyframes graves {
   0% {
-    transform: translateX(0%);
+     margin-left:0%;
   }
 
   100% {
-    transform: translateX(-50%);
+     margin-left: -300%;
   }
 }
 
@@ -358,19 +358,45 @@ col {
   border: 1px solid #fff;
   border-radius: 20px;
 }
-
-footer {
+footer{
+ width: 100%;
+}
+footer div{
   display: flex;
   flex-direction: row;
   width: 100%;
+  align-items: center;
 }
-
+#logo{
+  width: 20%;
+}
+#logospace{
+  margin-left: 800px;
+}
+#textspace{
+  margin-left: 150px;
+}
 .footerSuisse {
-  font-family: Suisse Intl;
+  font-family: Suisse;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 42px;
-  /* identical to box height */
   letter-spacing: 0.01em;
+  margin-bottom: 15px;
+}
+a:link{
+  color: #fff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited{
+  color: #fff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: #aaa;
+  background-color: transparent;
+  text-decoration: underline;
 }
