@@ -282,8 +282,24 @@ col {
   border-radius: 20px;
   width: 855px;
   height: 640px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
+#qr{
+  width: 642px;
+  flex-grow: 1;
+}
+#codelink{
+  transform: rotate(90deg);
+  font-family: "Suisse";
+  font-size: 146px;
+  line-height: 136px;
+  letter-spacing: 0.01em;
+  margin-right: 50px;
 
+}
 #fourth {
   width: 100%;
   display: flex;
