@@ -352,12 +352,40 @@ col {
   height: 800px;
 }
 
-#fifth div {
+#symbols {
+  display: grid;
+  justify-content: center;
+  align-content: center;
   height: 100%;
   width: 100%;
   border: 1px solid #fff;
   border-radius: 20px;
 }
+#symbols > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+#orbit{
+  align-self: center;
+  justify-self: center;
+  width: 50px;
+  height: 50px;
+}
+.moon{
+  /* transform: rotateY(120deg); */
+  width: 100px;
+  transform: rotate(90deg);
+  animation: orbitspin 6s linear infinite;
+}
+@keyframes orbitspin {
+  from{
+    transform: rotate(0deg) translate(270px);
+  }
+  to{
+    transform: rotate(360deg) translate(270px);
+  }
+}
+
 footer{
  width: 100%;
 }
