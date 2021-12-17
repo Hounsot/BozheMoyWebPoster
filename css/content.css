@@ -64,13 +64,13 @@ col {
 
 .BozheMoy {
   position: relative;
-  height: 213px;
+  height: 200px;
   width: 1065px;
 }
 
 .Sun {
   position: relative;
-  height: 853px;
+  height: 800px;
   width: 1065px;
 }
 
@@ -85,7 +85,7 @@ col {
 
 .Doska {
   width: 855px;
-  height: 1070px;
+  height: 1000px;
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
