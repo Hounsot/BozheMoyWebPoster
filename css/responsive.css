@@ -110,20 +110,58 @@ col {
 }
 #code {
   width: 640px;
-  height: 481px;
+  height: 100%;
 }
 #qr {
   height: 100%;
-  /* width: 483px; */
 }
 #codelink {
   font-size: 102px;
   line-height: 118px;
   letter-spacing: 0.01em;
 }
+.runninggraves img {
+  width: 400%;
+  height: 16%;
+}
+.doublerow {
+  width: 100%;
+  height: 350px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+#third{
+  height: 480px;
+}
+#festival {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  width: 800px;
+  height: 100%;
+}
+#fourth{
+  height: 700px;
+}
+#fifth{
+  height: 700px;
+}
+#logo {
+  width: 22%;
+}
 
+#logospace {
+  margin-left: 30%;
+}
 
-
-
+#textspace {
+  margin-left: 8.5%;
+}
+.footerSuisse {
+  font-family: Suisse;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  margin-bottom: 15px;
+}
 
 }
