@@ -55,7 +55,7 @@
 
   #circle {
     margin: auto;
-    margin-top: 3.5%;
+    margin-top: 12.5%;
     background: #fff;
     width: 488px;
     height: 488px;
@@ -228,7 +228,7 @@
   }
   #circle {
     margin: auto;
-    margin-top: 3.5%;
+    margin-top: 7%;
     background: #fff;
     width: 488px;
     height: 488px;
@@ -373,6 +373,14 @@
       height: 600px;
       width: 100%;
     }
+    #circle {
+      margin: auto;
+      margin-top: 5.5%;
+      width: 488px;
+      height: 488px;
+      transform: scale(1);
+    }
+
     #second{
       flex-direction: column;
     }
@@ -425,4 +433,27 @@
  #ghosts img{
    width: 120px;
  }
+ #maskrow{
+   display: block;
+ }
+ #logo {
+   width: 237px;
+ }
+
+ #logospace {
+   margin-left: 30%;
+ }
+
+ #textspace {
+   margin-left: 5%;
+ }
+
+ .footerSuisse {
+   font-family: Suisse;
+   font-size: 30px;
+   line-height: 40px;
+   letter-spacing: 0.01em;
+   margin-bottom: 15px;
+ }
+
 }

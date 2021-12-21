@@ -449,6 +449,9 @@ p {
     opacity: 0%;
   }
 }
+#maskrow{
+  display: none;
+}
 
 #fifth {
   width: 100%;
