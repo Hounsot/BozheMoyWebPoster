@@ -455,5 +455,9 @@
    letter-spacing: 0.01em;
    margin-bottom: 15px;
  }
-
+}
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+*{
+  display: none;
+}
 }
