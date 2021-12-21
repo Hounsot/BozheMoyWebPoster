@@ -30,11 +30,8 @@
     margin-top: 30px;
   }
 
-  col {
-    display: flex;
-    flex-direction: column;
-    margin-left: 0;
-    width: 874px;
+  .col {
+    width: 55.6%;
   }
 
   #first {
@@ -44,21 +41,16 @@
     height: 875px;
   }
 
-  .col div {
-    border: 1px solid #ffffff;
-    border-radius: 20px;
-  }
-
   .BozheMoy {
     position: relative;
     height: 20%;
-    width: 800px;
+    width: 100%;
   }
 
   .Sun {
     position: relative;
     height: 80%;
-    width: 800px;
+    width: 100%;
   }
 
   #circle {
@@ -191,4 +183,246 @@
     letter-spacing: 0.01em;
     margin-bottom: 15px;
   }
+}
+
+@media all and (max-width: 1366px){
+  p {
+    margin-top: 39px;
+    margin-left: 47px;
+    color: #fff;
+    font-size: 109px;
+    line-height: 112px;
+    letter-spacing: 0.01em;
+    font-family: "NWTBodoni"
+  }
+  #bozhe {
+    height: 150px;
+  }
+  .Suisse {
+    font-family: "Suisse";
+    font-size: 102px;
+    line-height: 118px;
+    letter-spacing: 0.01em;
+  }
+  .title {
+    margin-top: 30px;
+  }
+  #first {
+    width: 100%;
+    height: 750px;
+  }
+  .col {
+    width: 56.5%;
+    height: 100%;
+  }
+  .BozheMoy {
+    position: relative;
+    height: 20%;
+    width: 100%;
+  }
+
+  .Sun {
+    position: relative;
+    height: 80%;
+    width: 100%;
+  }
+  #circle {
+    margin: auto;
+    margin-top: 3.5%;
+    background: #fff;
+    width: 488px;
+    height: 488px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    transform: scale(1);
+    animation: pulse 2s infinite;
+  }
+
+  .Doska {
+    height: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+  }
+  #crosses {
+    display: flex;
+    flex-direction: column;
+    width: 605px;
+    height: 300px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+  }
+
+  #date {
+    width: 762px;
+    height: 300px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+  }
+
+  .row {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  .triplerow {
+    width: 100%;
+    height: 455px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+  }
+
+  .doublerow {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+  }
+  #third{
+    height: 455px;
+  }
+  #festival {
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    width: 755px;
+    height: 100%;
+  }
+
+  #code {
+    width: 640px;
+    height: 100%;
+  }
+
+  #qr {
+    height: 100%;
+  }
+
+  #codelink {
+    font-size: 102px;
+    line-height: 118px;
+    letter-spacing: 0.01em;
+  }
+  .runninggraves img {
+    width: 400%;
+    height: 16.5%;
+  }
+  #fourth {
+    height: 600px;
+  }
+
+  #fifth {
+    height: 600px;
+  }
+
+  #logo {
+    width: 22%;
+  }
+
+  #logospace {
+    margin-left: 30%;
+  }
+
+  #textspace {
+    margin-left: 8.5%;
+  }
+
+  .footerSuisse {
+    font-family: Suisse;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    margin-bottom: 15px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    p {
+      margin-top: 29px;
+      margin-left: 30px;
+      color: #fff;
+      font-size: 96px;
+      line-height: 99px;
+      letter-spacing: 0.01em;
+      font-family: "NWTBodoni"
+    }
+    .Suisse {
+      font-family: "Suisse";
+      font-size: 96px;
+      line-height: 111px;
+      letter-spacing: 0.01em;
+    }
+    #first {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 1270px;
+    }
+    .col {
+      height: auto;
+      width: 100%;
+    }
+    .BozheMoy {
+      position: relative;
+      height: 170px;
+      width: 100%;
+    }
+
+    .Sun {
+      position: relative;
+      height: 600px;
+      width: 100%;
+    }
+    #second{
+      flex-direction: column;
+    }
+    #crosses{
+      width: 100%;
+    }
+    #date {
+      width: 100%;
+      height: 300px;
+    }
+    .row {
+      width: 100%;
+      height: 150px;
+
+}
+    .triplerow {
+      width: 100%;
+      height: 455px;
+}
+  .Doska {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+  }
+  #code {
+    display: none;
+  }
+
+  #qr {
+  display: none;
+ }
+
+  #codelink {
+    display: none;
+  }
+  #festival{
+    width: 100%;
+  }
+  #fourth{
+    height: 600px;
+    width: 100%;
+  }
+ #hand{
+   width: 50%;
+ }
+ #ghosts{
+   width: 50%;
+ }
+ #ghosts img{
+   width: 120px;
+ }
 }

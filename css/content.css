@@ -51,18 +51,18 @@ p {
   font-family: "NWTBodoni";
 }
 
-col {
-  display: flex;
-  flex-direction: column;
-  margin-left: 0;
-  width: 1065px;
-}
-
 #first {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 1000px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  width: 55.4%;
 }
 
 .col div {
@@ -73,13 +73,13 @@ col {
 .BozheMoy {
   position: relative;
   height: 20%;
-  width: 1065px;
+  width: 100%;
 }
 
 .Sun {
   position: relative;
   height: 80%;
-  width: 1065px;
+  width: 100%;
 }
 
 #circle {
