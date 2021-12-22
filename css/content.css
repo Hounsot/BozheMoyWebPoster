@@ -233,30 +233,24 @@ p {
 }
 
 .runninggraves {
-  overflow: hidden;
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-
 .runninggraves div {
   display: flex;
   width: 200%;
-  animation: graves 12s linear infinite;
-  margin-top: -63px;
-  overflow: hidden;
+  height: 100%;
+  animation: graves 7s linear infinite;
 }
-
-.runninggraves span {
+.runninggraves span{
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  overflow: hidden;
+  justify-content: space-around;
+  align-items: flex-end;
 }
-
 .runninggraves img {
-  width: 400%;
-  height: 16%;
+  height: 100%;
 }
 
 .runninggraves:hover div {
@@ -265,11 +259,11 @@ p {
 
 @keyframes graves {
   0% {
-    margin-left: 0%;
+    transform: translateX(0%);
   }
 
   100% {
-    margin-left: -300%;
+    transform: translateX(-72.5%);
   }
 }
 
@@ -492,7 +486,7 @@ footer {
   flex-direction: row;
   border: #fff 1px solid;
   border-radius: 20px;
-  column-gap: 53%;
+  column-gap: 43%;
 }
 #logo {
   width: 20%;
