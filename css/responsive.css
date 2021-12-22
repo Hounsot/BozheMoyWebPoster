@@ -140,7 +140,7 @@
     }
 
     100% {
-      transform: translateX(-50%);
+      transform: translateX(-80%);
     }
   }
 
@@ -323,8 +323,16 @@
   }
 
   .runninggraves img {
-    width: 400%;
-    height: 16.5%;
+    height: 100%;
+  }
+  @keyframes graves {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-72%);
+    }
   }
 
   #fourth {
@@ -470,8 +478,16 @@
   }
 
   .runninggraves img {
-    width: 400%;
-    height: 22%;
+    height: 100%;
+  }
+  @keyframes graves {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-97%);
+    }
   }
 
   #codelink {
@@ -638,9 +654,16 @@
   }
 
   .runninggraves img {
-    width: 400%;
     height: 22%;
   }
+  @keyframes graves {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
 
   #codelink {
     display: none;
