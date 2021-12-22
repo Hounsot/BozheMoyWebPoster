@@ -36,14 +36,16 @@ p {
   /* margin: auto; */
   /* text-align: center; */
 }
+
 .Suisse {
   font-family: "Suisse";
   font-size: 146px;
   line-height: 136px;
   letter-spacing: 0.02em;
 }
-.title{
-  margin-left:;
+
+.title {
+  margin-left: ;
   margin-top: 30px;
 }
 
@@ -111,7 +113,6 @@ p {
   }
 }
 
-
 .Doska {
   width: 855px;
   height: 100%;
@@ -144,17 +145,20 @@ p {
   align-items: center;
   justify-items: center;
 }
-#crossesgrid img{
+
+#crossesgrid img {
   width: 70%;
   transition: transform 2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
-#crossesgrid img:hover{
+
+#crossesgrid img:hover {
   transform: rotate(360deg);
 }
 
-.extracrosses{
+.extracrosses {
   display: none;
 }
+
 #date {
   width: 1068px;
   height: 427px;
@@ -181,10 +185,12 @@ p {
   width: 200%;
   animation: faces 5s linear infinite;
 }
-#alignspan{
+
+#alignspan {
   height: 100%;
   align-self: center;
 }
+
 .runningimages span {
   width: 100%;
   display: flex;
@@ -230,7 +236,6 @@ p {
   width: 100%;
   height: 100%;
   overflow: hidden;
-
 }
 
 .runninggraves div {
@@ -239,7 +244,6 @@ p {
   animation: graves 12s linear infinite;
   margin-top: -63px;
   overflow: hidden;
-
 }
 
 .runninggraves span {
@@ -252,7 +256,6 @@ p {
 .runninggraves img {
   width: 400%;
   height: 16%;
-
 }
 
 .runninggraves:hover div {
@@ -424,7 +427,8 @@ p {
     opacity: 0%;
   }
 }
-#maskrow{
+
+#maskrow {
   display: none;
 }
 
@@ -476,31 +480,50 @@ footer {
   width: 100%;
 }
 
-footer div {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  align-items: center;
+#logospace {
+  margin-left: 0%;
 }
 
+.footerrow{
+  width: auto;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  border: #fff 1px solid;
+  border-radius: 20px;
+  column-gap: 53%;
+}
 #logo {
   width: 20%;
 }
-
-#logospace {
-  margin-left: 44%;
+#logospace{
+  width: 100%;
 }
-
 #textspace {
-  margin-left: 8.5%;
+  width: 100%;
+  min-width: 400px;
 }
 
+.rowblock {
+  width: 100%;
+}
+
+.textflexend{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  column-gap: 10%;
+  overflow: hidden;
+}
 .footerSuisse {
+  align-self: flex-end;
   font-family: Suisse;
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.01em;
   margin-bottom: 15px;
+  margin-left: 0%;
 }
 
 a:link {

@@ -166,12 +166,8 @@
     width: 22%;
   }
 
-  #logospace {
-    margin-left: 30%;
-  }
-
-  #textspace {
-    margin-left: 8.5%;
+  .footerrow {
+    column-gap: 48%;
   }
 
   .footerSuisse {
@@ -331,6 +327,14 @@
     width: 22%;
   }
 
+  .footerrow {
+    column-gap: 23%;
+  }
+
+  .textflexend {
+    column-gap: 0%;
+  }
+
   #logospace {
     margin-left: 30%;
   }
@@ -348,7 +352,7 @@
   }
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
   p {
     margin-top: 29px;
     margin-left: 30px;
@@ -440,6 +444,10 @@
     border-radius: 20px;
   }
 
+  .Doska p {
+    width: 714px;
+  }
+
   #code {
     display: none;
   }
@@ -503,7 +511,10 @@
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 768px){
+  *{
+    display: none;
+  }
   p {
     margin-top: 29px;
     margin-left: 30px;
@@ -547,9 +558,9 @@
 
   #circle {
     margin: auto;
-    margin-top: 5.5%;
-    width: 488px;
-    height: 488px;
+    margin-top: 10%;
+    width: 350px;
+    height: 350px;
     transform: scale(1);
   }
 
@@ -558,6 +569,10 @@
     height: 500px;
     border: 1px solid #ffffff;
     border-radius: 20px;
+  }
+
+  .Doska p {
+    width: 668px;
   }
 
   #second {
@@ -618,7 +633,7 @@
   }
 
   #fourth {
-    height: 600px;
+    height: 500px;
     width: 100%;
   }
 
@@ -638,6 +653,30 @@
     display: block;
   }
 
+  #orbit {
+    align-self: center;
+    justify-self: center;
+    width: 10px;
+    height: 10px;
+  }
+
+  .moon {
+    /* transform: rotateY(120deg); */
+    width: 100px;
+    transform: rotate(90deg);
+    animation: orbitspin 6s linear infinite;
+  }
+
+  @keyframes orbitspin {
+    from {
+      transform: rotate(0deg) translate(200px);
+    }
+
+    to {
+      transform: rotate(360deg) translate(200px);
+    }
+  }
+
   footer {
     height: 250px;
     border: #fff 1px solid;
@@ -645,6 +684,7 @@
   }
 
   .rowblock {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -675,14 +715,35 @@
     letter-spacing: 0.01em;
     margin-bottom: 15px;
   }
+
+  .textflexend {
+    width: 420px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  }
 }
+
 @media all and (max-device-width: 414px) {
-  *{
+
+  *:not(main) and :not(.runningimages) {
+    max-width: 400px;
+  }
+
+  main {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 414px;
+  }
+  main>*{
     max-width: 400px;
   }
   p {
-    margin-top: 29px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 17px;
     color: #fff;
     font-size: 60px;
     line-height: 62px;
@@ -702,10 +763,13 @@
     width: 414px;
     height: 910px;
   }
-  .title{
+
+  .title {
     width: 180px;
     height: auto;
+    margin-top: 15px;
   }
+
   .col {
     height: auto;
     width: 100%;
@@ -738,6 +802,10 @@
     border-radius: 20px;
   }
 
+  .Doska p {
+    width: 320px;
+  }
+
   #second {
     flex-direction: column;
   }
@@ -759,12 +827,14 @@
   .extracrosses {
     display: none;
   }
-  .iphoneoverlay{
+
+  .iphoneoverlay {
     display: none;
   }
+
   #date {
     width: 100%;
-    height: 300px;
+    height: 250px;
   }
 
   .row {
@@ -772,6 +842,8 @@
     height: 120px;
     overflow: hidden;
   }
+
+  .runningimages {}
 
   .triplerow {
     width: 100%;
@@ -817,6 +889,7 @@
   }
 
   #maskrow {
+    width: 100%;
     display: block;
   }
 
@@ -838,24 +911,17 @@
     width: 250px;
   }
 
-  #logospace {
-    justify-self: flex-end;
-    margin-top: 45px;
-    margin-left: 37px;
-  }
+  #logospace{
+  justify-self: flex-end;
+  margin-top: 45px;
+  margin-left: 37px;
+}
 
-  #textspace {
-    justify-self: flex-end;
-    margin-left: 37px;
-    margin-top: -25px;
-  }
-
-  .footerSuisse {
-    font-family: Suisse;
-    font-size: 26px;
-    line-height: 40px;
-    letter-spacing: 0.01em;
-    margin-bottom: 15px;
-  }
-
+.footerSuisse {
+  font-family: Suisse;
+  font-size: 26px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  margin-bottom: 15px;
+}
 }
