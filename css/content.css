@@ -129,57 +129,40 @@ p {
 }
 
 #crosses {
-  display: flex;
-  flex-direction: column;
   width: 853px;
   height: 427px;
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
 
-#crossesin {
-  margin: auto 0;
+#crossesgrid {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+#crossesgrid img{
+  width: 70%;
+  transition: transform 2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+#crossesgrid img:hover{
+  transform: rotate(360deg);
 }
 
-#firstlineofcrosses {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: auto 0;
+.extracrosses{
+  display: none;
 }
-
-#secondlineofcrosses {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: auto 0;
-}
-
-.cross {
-  height: 165px;
-  width: 145px;
-}
-
-.hor {
-  position: relative;
-  background: #FFFFFF;
-  height: 133px;
-  width: 30px;
-  transform: rotate(90deg);
-  margin: auto 0;
-}
-
-.ver {
-  position: relative;
-  background: #FFFFFF;
-  margin-top: -125px;
-  height: 165px;
-  width: 29px;
-  margin: auto -125px;
-}
-
+/* @keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+} */
 #date {
   width: 1068px;
   height: 427px;
