@@ -9,8 +9,10 @@
     margin-top: 39px;
     margin-left: 47px;
     color: #fff;
-    font-size: 110px;
-    line-height: 117px;
+    /* font-size: 110px; */
+    font-size: 7.6vw;
+    /* line-height: 117px; */
+    line-height: 8.1vw;
     letter-spacing: 0.04em;
     font-family: "NWTBodoni"
   }
@@ -192,8 +194,10 @@
     margin-top: 34px;
     margin-left: 27px;
     color: #fff;
-    font-size: 109px;
-    line-height: 112px;
+    /* font-size: 109px; */
+    font-size: 8vw;
+    /* line-height: 112px; */
+    line-height: 8.2vw;
     letter-spacing: 0.01em;
     font-family: "NWTBodoni"
   }
