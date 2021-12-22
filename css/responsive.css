@@ -636,7 +636,7 @@
 
   .triplerow {
     width: 100%;
-    height: 455px;
+    height: 385px;
   }
   #festival{
     overflow: hidden;
@@ -654,7 +654,7 @@
   }
 
   .runninggraves img {
-    height: 22%;
+    height: 92%;
   }
   @keyframes graves {
     0% {
@@ -664,7 +664,7 @@
     100% {
       transform: translateX(-100%);
     }
-
+}
   #codelink {
     display: none;
   }
@@ -680,6 +680,43 @@
 
   #hand {
     width: 50%;
+  }
+  @keyframes waving {
+    0% {
+      transform: translateY(1000px);
+    }
+
+    20% {
+      transform: translateY(50px);
+    }
+
+    25% {
+      transform: translateY(50px);
+    }
+
+    30% {
+      transform: rotate(15deg) translateY(50px);
+    }
+
+    40% {
+      transform: rotate(-15deg) translateY(50px);
+    }
+
+    50% {
+      transform: rotate(15deg) translateY(50px);
+    }
+
+    60% {
+      transform: rotate(-15deg) translateY(50px);
+    }
+
+    70% {
+      transform: rotate(0deg) translateY(50px);
+    }
+
+    100% {
+      transform: translateY(1000px);
+    }
   }
 
   #ghosts {
@@ -886,15 +923,12 @@
     overflow: hidden;
   }
 
-  .runningimages img {
-    width: 11%;
-  }
   .devilface{
     width: 8% !important;
   }
   .triplerow {
     width: 100%;
-    height: 455px;
+    height: 385px;
   }
   .doublerow p{
     word-wrap: break-word;
@@ -903,15 +937,27 @@
   #code {
     display: none;
   }
-
+  .runningimages img{
+    width: 11%;
+  }
   #qr {
     display: none;
   }
-
-  .runninggraves img{
-    width: 400%;
-    height: 22%;
+  .runninggraves span{
+    width: unset;
   }
+  .runninggraves img{
+    height: 100%;
+  }
+  @keyframes graves {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-210%);
+    }
+}
 
   #codelink {
     display: none;
@@ -1129,7 +1175,7 @@
   }
   .triplerow {
     width: 100%;
-    height: 455px;
+    height: 385px;
   }
   .doublerow p{
     word-wrap: break-word;
@@ -1144,9 +1190,20 @@
   }
 
   .runninggraves img {
-    width: 400%;
-    height: 22%;
+    height: 100%;
   }
+  .runninggraves span{
+    width: unset;
+  }
+  @keyframes graves {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-232%);
+    }
+}
 
   #codelink {
     display: none;
