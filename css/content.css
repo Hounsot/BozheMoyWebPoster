@@ -114,10 +114,11 @@ p {
 }
 
 .Doska {
-  width: 855px;
+  width: 44.6%;
   height: 100%;
   border: 1px solid #ffffff;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 #second {

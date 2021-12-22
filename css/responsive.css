@@ -181,8 +181,8 @@
 
 @media all and (max-width: 1366px) {
   p {
-    margin-top: 39px;
-    margin-left: 47px;
+    margin-top: 34px;
+    margin-left: 27px;
     color: #fff;
     font-size: 109px;
     line-height: 112px;
@@ -192,6 +192,7 @@
 
   #bozhe {
     height: 150px;
+    overflow: hidden;
   }
 
   .Suisse {
@@ -202,7 +203,8 @@
   }
 
   .title {
-    margin-top: 30px;
+    margin-top: 18px;
+    margin-left: 0;
   }
 
   #first {
@@ -225,6 +227,7 @@
     position: relative;
     height: 80%;
     width: 100%;
+    overflow: hidden;
   }
 
   #circle {
@@ -240,11 +243,12 @@
   }
 
   .Doska {
+    width: 43.5%;
     height: 100%;
     border: 1px solid #ffffff;
     border-radius: 20px;
+    overflow: hidden;
   }
-
   #crosses {
     display: flex;
     flex-direction: column;
@@ -511,10 +515,7 @@
   }
 }
 
-@media all and (max-width: 768px){
-  *{
-    display: none;
-  }
+@media all and (max-device-width: 768px) {
   p {
     margin-top: 29px;
     margin-left: 30px;
@@ -574,7 +575,9 @@
   .Doska p {
     width: 668px;
   }
-
+  .doublerow{
+    overflow: hidden;
+  }
   #second {
     flex-direction: column;
   }
@@ -609,6 +612,12 @@
   .triplerow {
     width: 100%;
     height: 455px;
+  }
+  #festival{
+    overflow: hidden;
+  }
+  #festival p {
+    width: 547px;
   }
 
   #code {
@@ -726,7 +735,6 @@
 }
 
 @media all and (max-device-width: 414px) {
-
   *:not(main) and :not(.runningimages) {
     max-width: 400px;
   }
@@ -738,9 +746,11 @@
     align-items: center;
     width: 414px;
   }
-  main>*{
+
+  main>* {
     max-width: 400px;
   }
+
   p {
     margin-top: 20px;
     margin-left: 17px;
@@ -911,17 +921,17 @@
     width: 250px;
   }
 
-  #logospace{
-  justify-self: flex-end;
-  margin-top: 45px;
-  margin-left: 37px;
-}
+  #logospace {
+    justify-self: flex-end;
+    margin-top: 45px;
+    margin-left: 37px;
+  }
 
-.footerSuisse {
-  font-family: Suisse;
-  font-size: 26px;
-  line-height: 40px;
-  letter-spacing: 0.01em;
-  margin-bottom: 15px;
-}
+  .footerSuisse {
+    font-family: Suisse;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    margin-bottom: 15px;
+  }
 }
