@@ -225,10 +225,15 @@ p {
     transform: translateX(-50%);
   }
 }
-
+.flowintext{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
 #adress {
   text-align: center;
-  margin: auto;
+  margin: auto 0;
 }
 
 .triplerow {

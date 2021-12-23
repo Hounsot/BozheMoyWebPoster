@@ -388,9 +388,11 @@
   br {
     display: none;
   }
-  #xgabreak{
+
+  #xgabreak {
     display: block;
   }
+
   p {
     margin-top: 29px;
     margin-left: 30px;
@@ -696,6 +698,30 @@
       transform: translateX(-100%);
     }
   }
+  .flowintext{
+    display: flex;
+    flex-direction: row;
+    width: 3000px !important;
+  }
+  #adress {
+    align-self: center;
+    overflow:hidden;
+    max-width: 2000px;
+    width: 1000px !important;
+    animation: aresstext 5s linear infinite;
+  }
+  #adress:hover{
+    animation-play-state: paused;
+  }
+  @keyframes aresstext {
+    0% {
+      transform: translateX(100%);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 
   #codelink {
     display: none;
@@ -840,10 +866,10 @@
   *:not(main) and :not(.runningimages) {
     max-width: 400px;
   }
-  br{
+
+  br {
     display: block;
   }
-
 
   main {
     margin-top: 45px;
