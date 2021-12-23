@@ -542,6 +542,17 @@
   #maskrow {
     display: block;
   }
+  #maska{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fff;
+    background-color: transparent;
+    text-decoration: underline;
+    line-height: 67px;
+  }
 
   #logo {
     width: 237px;
