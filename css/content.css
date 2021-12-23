@@ -124,7 +124,9 @@ p {
   border-radius: 20px;
   overflow: hidden;
 }
-
+#xgabreak{
+  display: none;
+}
 #second {
   display: flex;
   flex-direction: row;
@@ -437,6 +439,7 @@ p {
 }
 
 #symbols {
+  overflow: hidden;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -477,6 +480,7 @@ p {
 
 footer {
   width: 100%;
+  overflow: hidden;
 }
 
 #logospace {

@@ -139,6 +139,7 @@
   .runninggraves img {
     height: 110%;
   }
+
   @keyframes graves {
     0% {
       transform: translateX(0%);
@@ -266,6 +267,7 @@
     border-radius: 20px;
     overflow: hidden;
   }
+
   #crosses {
     display: flex;
     flex-direction: column;
@@ -334,6 +336,7 @@
   .runninggraves img {
     height: 100%;
   }
+
   @keyframes graves {
     0% {
       transform: translateX(0%);
@@ -382,6 +385,12 @@
 }
 
 @media all and (max-width: 1024px) {
+  br {
+    display: none;
+  }
+  #xgabreak{
+    display: block;
+  }
   p {
     margin-top: 29px;
     margin-left: 30px;
@@ -492,6 +501,7 @@
   .runninggraves img {
     height: 100%;
   }
+
   @keyframes graves {
     0% {
       transform: translateX(0%);
@@ -616,9 +626,11 @@
   .Doska p {
     width: 668px;
   }
-  .doublerow{
+
+  .doublerow {
     overflow: hidden;
   }
+
   #second {
     flex-direction: column;
   }
@@ -654,9 +666,11 @@
     width: 100%;
     height: 385px;
   }
-  #festival{
+
+  #festival {
     overflow: hidden;
   }
+
   #festival p {
     width: 547px;
   }
@@ -672,6 +686,7 @@
   .runninggraves img {
     height: 92%;
   }
+
   @keyframes graves {
     0% {
       transform: translateX(0%);
@@ -680,7 +695,8 @@
     100% {
       transform: translateX(-100%);
     }
-}
+  }
+
   #codelink {
     display: none;
   }
@@ -697,6 +713,7 @@
   #hand {
     width: 50%;
   }
+
   @keyframes waving {
     0% {
       transform: translateY(1000px);
@@ -823,6 +840,10 @@
   *:not(main) and :not(.runningimages) {
     max-width: 400px;
   }
+  br{
+    display: block;
+  }
+
 
   main {
     margin-top: 45px;
@@ -939,32 +960,40 @@
     overflow: hidden;
   }
 
-  .devilface{
+  .devilface {
     width: 8% !important;
   }
+
   .triplerow {
     width: 100%;
     height: 385px;
   }
-  .doublerow p{
+
+  .doublerow p {
     word-wrap: break-word;
     width: 400px;
   }
+
   #code {
     display: none;
   }
-  .runningimages img{
+
+  .runningimages img {
     width: 11%;
   }
+
   #qr {
     display: none;
   }
-  .runninggraves span{
+
+  .runninggraves span {
     width: unset;
   }
-  .runninggraves img{
+
+  .runninggraves img {
     height: 100%;
   }
+
   @keyframes graves {
     0% {
       transform: translateX(0%);
@@ -973,14 +1002,16 @@
     100% {
       transform: translateX(-210%);
     }
-}
+  }
 
   #codelink {
     display: none;
   }
-  #third{
+
+  #third {
     height: 250px;
   }
+
   #festival {
     width: 100%;
     height: 100%;
@@ -1004,13 +1035,16 @@
   #ghosts img {
     width: 100px;
   }
-  #fifth{
+
+  #fifth {
     height: 400px;
   }
+
   #maskrow {
     width: 100%;
     display: block;
   }
+
   @keyframes orbitspin {
     from {
       transform: rotate(0deg) translate(150px);
@@ -1020,18 +1054,22 @@
       transform: rotate(360deg) translate(150px);
     }
   }
-  .moon{
+
+  .moon {
     width: 75px;
   }
+
   footer {
     height: 250px;
     border: #fff 1px solid;
     border-radius: 20px;
   }
-  .textflexend{
+
+  .textflexend {
     width: 350px;
     margin-left: 0px;
   }
+
   .rowblock {
     display: flex;
     flex-direction: column;
@@ -1050,7 +1088,8 @@
     margin-left: 37px;
     width: 200px;
   }
-  #textspace{
+
+  #textspace {
     align-self: flex-start;
     width: 200px;
   }
@@ -1063,6 +1102,7 @@
     margin-bottom: 15px;
   }
 }
+
 @media all and (max-device-width: 375px) {
   *:not(main) and :not(.runningimages) {
     max-width: 360px;
@@ -1186,17 +1226,21 @@
   .runningimages img {
     width: 11%;
   }
-  .devilface{
+
+  .devilface {
     width: 8% !important;
   }
+
   .triplerow {
     width: 100%;
     height: 385px;
   }
-  .doublerow p{
+
+  .doublerow p {
     word-wrap: break-word;
     width: 400px;
   }
+
   #code {
     display: none;
   }
@@ -1208,9 +1252,11 @@
   .runninggraves img {
     height: 100%;
   }
-  .runninggraves span{
+
+  .runninggraves span {
     width: unset;
   }
+
   @keyframes graves {
     0% {
       transform: translateX(0%);
@@ -1219,14 +1265,16 @@
     100% {
       transform: translateX(-232%);
     }
-}
+  }
 
   #codelink {
     display: none;
   }
-  #third{
+
+  #third {
     height: 250px;
   }
+
   #festival {
     width: 100%;
     height: 100%;
@@ -1250,13 +1298,16 @@
   #ghosts img {
     width: 100px;
   }
-  #fifth{
+
+  #fifth {
     height: 400px;
   }
+
   #maskrow {
     width: 100%;
     display: block;
   }
+
   @keyframes orbitspin {
     from {
       transform: rotate(0deg) translate(150px);
@@ -1266,18 +1317,22 @@
       transform: rotate(360deg) translate(150px);
     }
   }
-  .moon{
+
+  .moon {
     width: 75px;
   }
+
   footer {
     height: 250px;
     border: #fff 1px solid;
     border-radius: 20px;
   }
-  .textflexend{
+
+  .textflexend {
     width: 350px;
     margin-left: 0px;
   }
+
   .rowblock {
     display: flex;
     flex-direction: column;
@@ -1296,7 +1351,8 @@
     margin-left: 37px;
     width: 200px;
   }
-  #textspace{
+
+  #textspace {
     align-self: flex-start;
     width: 200px;
   }
