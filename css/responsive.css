@@ -1,3 +1,4 @@
+/* ступапупа */
 @media all and (max-width: 1440px) {
   body {
     background-color: black;
@@ -23,8 +24,10 @@
 
   .Suisse {
     font-family: "Suisse";
-    font-size: 102px;
-    line-height: 118px;
+    /* font-size: 102px; */
+    font-size: 7.2vw;
+    /* line-height: 118px; */
+    line-height: 8.2vw;
     letter-spacing: 0.02em;
   }
 
@@ -209,14 +212,16 @@
 
   .Suisse {
     font-family: "Suisse";
-    font-size: 102px;
-    line-height: 118px;
+    /* font-size: 102px; */
+    font-size: 8.3vw;
+    /* line-height: 118px; */
+    line-height: 9.5vw;
     letter-spacing: 0.01em;
   }
 
   .title {
     margin-top: 18px;
-    margin-left: 0;
+    margin-left: 27px;
   }
 
   #first {
@@ -381,8 +386,10 @@
     margin-top: 29px;
     margin-left: 30px;
     color: #fff;
-    font-size: 96px;
-    line-height: 99px;
+    /* font-size: 96px; */
+    font-size: 9vw;
+    /* line-height: 99px; */
+    line-height: 10vw;
     letter-spacing: 0.01em;
     font-family: "NWTBodoni"
   }
@@ -391,6 +398,7 @@
     font-family: "Suisse";
     font-size: 96px;
     line-height: 111px;
+    line-height: 11vw;
     letter-spacing: 0.01em;
   }
 
@@ -549,16 +557,20 @@
     margin-top: 29px;
     margin-left: 30px;
     color: #fff;
-    font-size: 90px;
-    line-height: 93px;
+    /* font-size: 90px; */
+    font-size: 12.15vw;
+    /* line-height: 93px; */
+    line-height: 12.2vw;
     letter-spacing: 0.01em;
     font-family: "NWTBodoni"
   }
 
   .Suisse {
     font-family: "Suisse";
-    font-size: 90px;
-    line-height: 95px;
+    /* font-size: 90px; */
+    font-size: 14vw;
+    /* line-height: 95px; */
+    line-height: 16vw;
     letter-spacing: 0.01em;
   }
 

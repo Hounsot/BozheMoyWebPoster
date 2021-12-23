@@ -22,8 +22,10 @@ p {
   margin-top: 39px;
   margin-left: 47px;
   color: white;
-  font-size: 146px;
-  line-height: 156px;
+  /* font-size: 146px; */
+  font-size: 7.5vw;
+  /* line-height: 156px; */
+  line-height: 8.1vw;
   letter-spacing: 0.04em;
   font-family: "NWTBodoni"
 }
@@ -39,8 +41,10 @@ p {
 
 .Suisse {
   font-family: "Suisse";
-  font-size: 146px;
-  line-height: 136px;
+  /* font-size: 146px; */
+  font-size: 7.6vw;
+  /* line-height: 136px; */
+  line-height: 7.2vw;
   letter-spacing: 0.02em;
 }
 
@@ -282,7 +286,7 @@ p {
 #festival {
   border: 1px solid #ffffff;
   border-radius: 20px;
-  width: 1066px;
+  width: 55.5%;
   height: 640px;
 }
 
